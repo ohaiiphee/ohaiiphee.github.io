@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athena's page</title>
+    <link rel="stylesheet" type="text/css" href="style_athena.css" />
+    <script src="./athena.js"></script>
+    <link rel="icon" type="image/x-icon" href="./icons8-pixel-cat-24.png" />
 </head>
+
 <body>
     <header>
         <h1>Athena's page</h1>
     </header>
-    
+
     <nav>
         <a href="./index.html">Home</a> |
         <a href="./misha.html">Misha</a> |
@@ -18,5 +23,78 @@
         <a href="./mika.html">Mika</a> |
         <a href="./rafi.html">Rafi</a>
     </nav>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="./pictures/athena1.jpg" style="width:50%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="./pictures/athena4.jpg" style="width:50%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="./pictures/athena5.HEIC" style="width:50%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="./pictures/athena6.HEIC" style="width:50%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="./pictures/athena7.HEIC" style="width:50%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="./pictures/athena8.jpg" style="width:50%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <section>
+        <h2> The scaredy one</h2>
+        <p> Athena joined our household in 2020. She's a super chill cat who loves to
+            steal her brother's food and enjoys spending her time inside things, as seen on the above pictures.
+            As a kitten she loved playing around, but nowadays she prefers to nap on top of the computer,
+            or on the bed. Or couch. Or chair. Or table. You get the point.
+        </p>
+    </section>
+
+    <details>
+        <p>Athena was born in May 2020. She is a tricolor European Shorthair with yellow eyes.</p>
+    </details>
+
+
+
+    <footer>
+        &copy;Copyright Sofia Martins Rua
+    </footer>
 </body>
+
 </html>
