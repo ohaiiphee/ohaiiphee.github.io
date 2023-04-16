@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Misha's page</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="pets_style.css" />
+    <script src="./pets.js"></script>
     <link rel="icon" type="image/x-icon" href="./icons8-pixel-cat-24.png" />
 </head>
+
 <body>
     <header>
         <h1>Misha's page</h1>
     </header>
-    
+
     <nav>
         <a href="./index.html">Home</a> |
         <a href="./snot.html">Snot</a> |
@@ -20,5 +23,86 @@
         <a href="./mika.html">Mika</a> |
         <a href="./rafi.html">Rafi</a>
     </nav>
+
+    <br>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img class="img1" src="./pictures/misha1.jpg" style="width:50%">
+            <div class="text">Meet the Void</div>
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img class="img2" src="./pictures/misha2.jpg" style="width:50%">
+            <div class="text">Photoshoot Time</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img class="img3" src="./pictures/misha7.jpg" style="width:50%">
+            <div class="text">Cropped but Cute</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img class="img4" src="./pictures/misha8.jpg" style="width:50%">
+            <div class="text">Looking Mean</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img class="img5" src="./pictures/misha9.jpg" style="width:50%">
+            <div class="text">Hiding Away</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img class="img6" src="./pictures/rafi_misha.jpg" style="width:50%">
+            <div class="text">Two Cats Chilling</div>
+        </div>
+
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+
+    <section>
+        <h2> The oldest one</h2>
+        <p> I first met Misha in 2008 while doing volunteer work at an animal shelter. She had a hard time trusting
+            humans since she
+            had been very mistreated by her former owner. However, after some time, patience and treats, we became
+            inseparable. We would watch tv together, nap together and whenever I sat down at my desk to do some
+            gaming/homework, she would make sure to sit at my lap for moral support (and snuggles). In 2019, Misha
+            became very sick and passed away, leaving us with some sadness, a lot of good memories and a very scratched
+            up red chair (her favorite).
+        </p>
+    </section>
+
+
+    <details>
+        <p>Misha's birth year is unknown. She was a black European Shorthair with yellow eyes. She is dearly missed.</p>
+    </details>
+
+    <br>
+
+
+    <footer>
+        &copy;Copyright Sofia Martins Rua
+    </footer>
 </body>
+
 </html>
